@@ -15,7 +15,7 @@ Features
 
 Usage
 -----
-To generate a Python project, run the cookiecutter program with the *cookiecutter-pypackage-usgs* template project::
+To generate a Python project, run the cookiecutter program with the *cookiecutter-pypackage* template project::
 
     $ cookiecutter https://github.com/jlant/cookiecutter-pypackage.git
 
