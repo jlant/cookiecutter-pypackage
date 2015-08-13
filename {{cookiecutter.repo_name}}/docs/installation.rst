@@ -1,12 +1,10 @@
-============
 Installation
 ============
 
-At the command line::
+To install from source:
 
-    $ easy_install {{ cookiecutter.repo_name }}
+1. Clone or download the project.
+2. Navigate to the project's root directory where the *setup.py* file is located
+3. At the command line::
 
-Or, if you have virtualenvwrapper installed::
-
-    $ mkvirtualenv {{ cookiecutter.repo_name }}
-    $ pip install {{ cookiecutter.repo_name }}
+    $ python setup.py install
