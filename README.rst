@@ -1,78 +1,45 @@
-======================
 cookiecutter-pypackage
 ======================
 
-.. image:: https://img.shields.io/travis/audreyr/cookiecutter-pypackage.svg
-   :target: https://travis-ci.org/audreyr/cookiecutter-pypackage
+A cookiecutter template for a Python package.
 
-Cookiecutter template for a Python package. See https://github.com/audreyr/cookiecutter.
+Please see Cookiecutter_.
 
-* Free software: BSD license
-* Vanilla testing setup with `unittest` and `python setup.py test`
-* Travis-CI_: Ready for Travis Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3, 3.4
-* Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
+Features
+--------
+* Free software - The MIT License (MIT)
+* Consistent and clean python package setup
+* Testing setup with pytest_
+* Testing setup for various versions of Python 2.6, 2.7, 3.3, 3.4 with Tox_
+* Project and code documentation setup with Sphinx_
 
 Usage
 -----
+To generate a Python project, run the cookiecutter program with the *cookiecutter-pypackage-usgs* template project::
 
-Generate a Python package project::
+    $ cookiecutter https://github.com/jlant/cookiecutter-pypackage.git
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+Dependencies
+------------
 
-Then:
+- Cookiecutter_
 
-* Create a repo and put it there.
-* Add the repo to your Travis CI account.
-* Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
-* Release your package the standard Python way. Here's a release checklist: 
-  https://gist.github.com/audreyr/5990987
+You can install Cookiecutter_ on the command line::
 
-Not Exactly What You Want?
---------------------------
+    $ pip install cookiecutter
 
-Don't worry, you have options:
+Or, if you use conda::
 
-Similar Cookiecutter Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    $ conda install -c https://conda.binstar.org/pydanny cookiecutter
 
-* `Nekroze/cookiecutter-pypackage`_: A fork of this with a PyTest test runner,
-  strict flake8 checking with Travis/Tox, and some docs and `setup.py` differences.
-  
-* `tony/cookiecutter-pypackage-pythonic`_: Fork with py2.7+3.3 optimizations. 
-  Flask/Werkzeug-style test runner, ``_compat`` module and module/doc conventions.
-  See ``README.rst`` or the `github comparison view`_ for exhaustive list of 
-  additions and modifications.
+Author
+------
 
-* Also see the `network`_ and `family tree`_ for this repo. (If you find
-  anything that should be listed here, please add it and send a pull request!)
-
-Fork This / Create Your Own
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you have differences in your preferred setup, I encourage you to fork this
-to create your own version. Or create your own; it doesn't strictly have to
-be a fork.
-
-* Once you have your own version working, add it to the Similar Cookiecutter
-  Templates list above with a brief description. 
-
-* It's up to you whether or not to rename your fork/own version. Do whatever
-  you think sounds good.
-
-Or Submit a Pull Request
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-I also accept pull requests on this, if they're small, atomic, and if they
-make my own packaging experience better.
+| Jeremiah Lant
+| jeremiahlant@gmail.com
 
 
-.. _Travis-CI: http://travis-ci.org/
+.. _Cookiecutter: http://cookiecutter.readthedocs.org/en/latest/
+.. _pytest: http://pytest.org/latest/
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
-.. _ReadTheDocs: https://readthedocs.org/
-.. _`Nekroze/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
-.. _`tony/cookiecutter-pypackage-pythonic`: https://github.com/tony/cookiecutter-pypackage-pythonic
-.. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/audreyr:master...master
-.. _`network`: https://github.com/audreyr/cookiecutter-pypackage/network
-.. _`family tree`: https://github.com/audreyr/cookiecutter-pypackage/network/members
