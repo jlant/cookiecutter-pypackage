@@ -5,7 +5,7 @@
 
     A short description.
 
-    :copyright: {{ cookiecutter.year }} by {{ cookiecutter.full_name }}, see AUTHORS.rst
+    :copyright: {{ cookiecutter.year }} by {{ cookiecutter.full_name }}, see AUTHORS
     :license: The MIT License (MIT), see LICENSE file for more details
 """
 
